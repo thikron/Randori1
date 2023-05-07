@@ -1,0 +1,122 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+**/dist/
+out/
+/tmp
+/out-tsc
+# Only exists if Bazel was run
+/bazel-out
+Backend/Mobil/NAKMobilApi/Images/Liegenschaften/**
+Backend/Mobil/NAKMobilApi/Images/DateiTypen/**
+Backend/Mobil/NAKMobilWeb/app/**
+
+# dependencies
+**/node_modules
+Backend/Portal/webMDV/packages/
+Backend/Mobil/packages
+
+# profiling files
+chrome-profiler-events.json
+speed-measure-plugin.json
+
+# IDEs and editors
+.idea/
+*.iml
+coverage/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/
+
+# IDE - VS
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.pch
+*.pdb
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
+*.log
+*.vspscc
+*.vssscc
+*.user
+.builds
+*.pidb
+*.svclog
+*.scc
+# misc
+/.sass-cache
+/connect.lock
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+**/.vs/
+*.dbmdl
+*.jfm
+
+
+# ReSharper is a .NET coding add-in
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# IDE - Jetbrains
+.idea/
+coverage/
+
+# Build results
+**/[Dd]ebug/
+**/[Dd]ebugPublic/
+**/[Rr]elease/
+**/[Rr]eleases/
+**/x64/
+**/x86/
+**/[Ww][Ii][Nn]32/
+**/[Aa][Rr][Mm]/
+**/[Aa][Rr][Mm]64/
+**/bld/
+**/[Bb]in/
+**/[Oo]bj/
+**/[Ll]og/
+**/[Ll]ogs/
+
+# System Files
+.DS_Store
+Thumbs.db
+/.vs/Amt/config/applicationhost.config
+/.vs/Amt/v16/.suo
+/.vs/ProjectSettings.json
+/.vs/slnx.sqlite
+/.vs/VSWorkspaceState.json
+
+environment.standalone.ts
+vwd.webinfo
+
+# JavaScript/TypeScript
+package-lock.json
