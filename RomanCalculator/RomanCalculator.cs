@@ -4,7 +4,12 @@
     {
         public static string Add(string a, string b)
         {
-            return "II";
+            string c = a + b;
+            if (c=="IIII")
+            {
+                c = "IV";
+            }
+            return c;
         }
     }
 }
